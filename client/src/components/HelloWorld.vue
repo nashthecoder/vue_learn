@@ -2,6 +2,25 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h3>Learning Chart.js</h3>
+    <hr />
+    <div class="features">
+      <div class="feature">
+        <h2>Header</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="feature">
+        <h2>Header</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="feature">
+        <h2>Header</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+    <hr />
+    <div class="footer">
+      NashTheCoder | Copyright © 2019-present MadHacks
+    </div>
   </div>
 </template>
 

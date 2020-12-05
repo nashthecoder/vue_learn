@@ -1,22 +1,65 @@
 import Vue from "vue";
-import Router from "vue-router";
+import VueRouter from "vue-router";
 import Home from "./views/Home.vue";
 
-Vue.use(Router);
+Vue.use(VueRouter);
 
-export default new Router({
+const routes = [
+  {
+    path: "/",
+    name: "Home",
+    component: Home
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: () => import("./views/About.vue")
+  },
+  {
+    path: "/line",
+    name: "Line",
+    component: () => import("./views/Line.vue")
+  },
+  {
+    path: "/bar",
+    name: "Bar",
+    component: () => import("./views/Bar.vue")
+  },
+  {
+    path: "/doughnut",
+    name: "Doughnut",
+    component: () => import("./views/Doughnut.vue")
+  },
+  {
+    path: "/pie",
+    name: "Pie",
+    component: () => import("./views/Pie.vue")
+  },
+  {
+    path: "/radar",
+    name: "Radar",
+    component: () => import("./views/Radar.vue")
+  },
+  {
+    path: "/polar-area",
+    name: "PolarArea",
+    component: () => import("./views/PolarArea.vue")
+  },
+  {
+    path: "/bubble",
+    name: "Bubble",
+    component: () => import("./views/Bubble.vue")
+  },
+  {
+    path: "/scatter",
+    name: "Scatter",
+    component: () => import("./views/Scatter.vue")
+  }
+];
+const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes: [
-    {
-      path: "/",
-      name: "home",
-      component: Home
-    },
-    {
-      path: "/about",
-      name: "about",
-      component: () => import("./views/About.vue")
-    }
-  ]
+  routes
 });
+
+export default router;

@@ -2,9 +2,23 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/line">Line</router-link> |
+      <router-link to="/bar">Bar</router-link> |
+      <router-link to="/doughnut">Doughnut</router-link> |
+      <router-link to="/pie">Pie</router-link> |
+      <router-link to="/radar">Radar</router-link> |
+      <router-link to="/polar-area">Polar Area</router-link> |
+      <router-link to="/bubble">Bubble</router-link> |
+      <router-link to="/scatter">Scatter</router-link>
     </div>
-    <router-view />
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <router-view />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

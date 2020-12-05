@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/mevn.jpg" />
-    <HelloWorld msg="PWA Boilerplate Template" />
+    <img alt="Vue logo" src="../assets/chartjs.png" />
+    <HelloWorld msg="#AlwaysLearning | Chart.js in Vue" />
   </div>
 </template>
 
