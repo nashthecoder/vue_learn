@@ -1,0 +1,8 @@
+{
+  "name": "vue_learn",
+  "template": "PWA",
+  "isConfigured": {
+    "client": false,
+    "server": false
+  }
+}
