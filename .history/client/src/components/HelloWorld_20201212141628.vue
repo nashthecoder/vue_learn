@@ -10,7 +10,7 @@
             <h2>Header</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-               <br />
+               <br/>
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
@@ -20,7 +20,7 @@
             <h2>Header</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-               <br />
+               <br/>
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
@@ -30,7 +30,7 @@
             <h2>Header</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-              <br />
+              <br/>
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>

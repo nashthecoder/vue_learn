@@ -22,33 +22,37 @@ export default {
         datasets: [
           {
             label: "Scatter Chart",
-            pointBackgroundColor: [
-              "green",
-              "blue",
-              "yellow",
-              "orange",
-              "purple"
-            ],
-            data: [
-              { x: 0, y: 10 },
-              { x: 2, y: 8 },
-              { x: 4, y: 10 },
-              { x: 7, y: 5 },
-              { x: -2, y: 0 }
-            ]
+            data: [600, 1150, 342, 6050, 2522, 3241, 1259, 157, 1545, 9841],
+            fill: false,
+            borderColor: "#2554FF",
+            backgroundColor: "#2554FF",
+            borderWidth: 1
           }
         ]
       },
       options: {
-        legend: {
-          display: false
+        scales: {
+          yAxes: [
+            {
+              ticks: {
+                beginAtZero: true
+              },
+              gridLines: {
+                display: true
+              }
+            }
+          ],
+          xAxes: [
+            {
+              gridLines: {
+                display: false
+              }
+            }
+          ]
         },
-        xAxes: [
-          {
-            type: "linear",
-            position: "bottom"
-          }
-        ],
+        legend: {
+          display: true
+        },
         responsive: true,
         maintainAspectRatio: false
       }

@@ -1,8 +1,8 @@
 <script>
-import { PolarArea } from "vue-chartjs";
+import { Pie } from "vue-chartjs";
 
 export default {
-  extends: PolarArea,
+  extends: Pie,
   data() {
     return {
       chartData: {

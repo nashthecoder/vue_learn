@@ -1,34 +1,45 @@
 <script>
-import { PolarArea } from "vue-chartjs";
+import { Bubble } from "vue-chartjs";
 
 export default {
-  extends: PolarArea,
+  extends: Bubble,
   data() {
     return {
       chartData: {
-        labels: ["Netherlands", "Spain", "Portugal", "Estonia"],
+        labels: [
+          "J 2020",
+          "F 2020",
+          "M 2020",
+          "A 2020",
+          "M 2020",
+          "J 2020",
+          "J 2020",
+          "A 2020",
+          "S 2020",
+          "O 2020",
+          "N 2020",
+          "D 2020"
+        ],
         datasets: [
           {
+            label: "My colors",
             borderWidth: 1,
-            borderColor: [
-              "rgba(255,99,132,1)",
-              "rgba(54, 162, 235, 1)",
-              "rgba(255, 206, 86, 1)",
-              "rgba(75, 192, 192, 1)"
-            ],
             backgroundColor: [
               "rgba(255, 99, 132, 0.2)",
               "rgba(54, 162, 235, 0.2)",
               "rgba(255, 206, 86, 0.2)",
               "rgba(75, 192, 192, 0.2)"
             ],
-            data: [1000, 500, 1500, 1000]
+            borderColor: ["#fff"],
+            pointerBorderColor: "#2554FF",
+            data: [12, 19, 7, 5, 2, 13, 20, 3, 5, 6, 2, 4]
           }
         ]
       },
+
       options: {
         legend: {
-          display: true
+          display: false
         },
         responsive: true,
         maintainAspectRatio: false

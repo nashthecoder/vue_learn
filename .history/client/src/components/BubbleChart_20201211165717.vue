@@ -32,19 +32,33 @@ export default {
             ],
             borderColor: ["#fff"],
             pointerBorderColor: "#2554FF",
-            data: [
-              { x: 5, y: 10, r: 10 },
-              { x: 15, y: 3, r: 15 },
-              { x: 7, y: 15, r: 30 },
-              { x: 25, y: 5, r: 10 }
-            ]
+            data: [12, 19, 7, 5, 2, 13, 20, 3, 5, 6, 2, 4]
           }
         ]
       },
 
       options: {
+        scales: {
+          yAxes: [
+            {
+              ticks: {
+                beginAtZero: true
+              },
+              grindlines: {
+                display: true
+              }
+            }
+          ],
+          xAxes: [
+            {
+              grindlines: {
+                display: false
+              }
+            }
+          ]
+        },
         legend: {
-          display: false
+          display: true
         },
         responsive: true,
         maintainAspectRatio: false

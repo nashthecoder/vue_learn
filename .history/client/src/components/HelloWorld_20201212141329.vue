@@ -10,7 +10,6 @@
             <h2>Header</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-               <br />
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
@@ -20,7 +19,6 @@
             <h2>Header</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-               <br />
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
@@ -29,8 +27,7 @@
           <div class="feature">
             <h2>Header</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-              <br />
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br/>
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
@@ -72,5 +69,6 @@ a {
 .feature {
   padding: 1.2 rem 0;
   margin-top: 2.5 rem;
+
 }
 </style>

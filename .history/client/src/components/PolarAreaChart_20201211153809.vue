@@ -2,7 +2,7 @@
 import { PolarArea } from "vue-chartjs";
 
 export default {
-  extends: PolarArea,
+  extends: polarArea,
   data() {
     return {
       chartData: {

@@ -1,8 +1,8 @@
 <script>
-import { PolarArea } from "vue-chartjs";
+import { Radar } from "vue-chartjs";
 
 export default {
-  extends: PolarArea,
+  extends: Radar,
   data() {
     return {
       chartData: {

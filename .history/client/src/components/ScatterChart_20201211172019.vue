@@ -43,12 +43,10 @@ export default {
         legend: {
           display: false
         },
-        xAxes: [
-          {
-            type: "linear",
-            position: "bottom"
-          }
-        ],
+        xAxes: [{
+            type:'linear',
+            position:'bottom'
+        }],
         responsive: true,
         maintainAspectRatio: false
       }

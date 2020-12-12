@@ -28,13 +28,13 @@ export default {
               "yellow",
               "orange",
               "purple"
-            ],
+                ],
             data: [
               { x: 0, y: 10 },
               { x: 2, y: 8 },
               { x: 4, y: 10 },
               { x: 7, y: 5 },
-              { x: -2, y: 0 }
+              { x: -2, y: 0 },
             ]
           }
         ]
@@ -43,12 +43,10 @@ export default {
         legend: {
           display: false
         },
-        xAxes: [
-          {
-            type: "linear",
-            position: "bottom"
-          }
-        ],
+        xAxes: [{
+            type:'linear',
+            position:'bottom'
+        }],
         responsive: true,
         maintainAspectRatio: false
       }

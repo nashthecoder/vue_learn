@@ -8,31 +8,22 @@
         <li>
           <div class="feature">
             <h2>Header</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-               <br />
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
+        </li>
+        <li>
+    <div class="feature">
+        <h2>Header</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+    </div>
         </li>
         <li>
           <div class="feature">
             <h2>Header</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-               <br />
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="feature">
-            <h2>Header</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-              <br />
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </li>
       </ul>
@@ -68,9 +59,5 @@ li {
 }
 a {
   color: #42b983;
-}
-.feature {
-  padding: 1.2 rem 0;
-  margin-top: 2.5 rem;
 }
 </style>

@@ -1,8 +1,8 @@
 <script>
-import { PolarArea } from "vue-chartjs";
+import { Radar } from "vue-chartjs";
 
 export default {
-  extends: PolarArea,
+  extends: Radar,
   data() {
     return {
       chartData: {
@@ -22,7 +22,7 @@ export default {
               "rgba(255, 206, 86, 0.2)",
               "rgba(75, 192, 192, 0.2)"
             ],
-            data: [1000, 500, 1500, 1000]
+            data: [1200, 1400, 1200, 1500]
           }
         ]
       },
