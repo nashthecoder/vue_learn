@@ -20,10 +20,7 @@
             <h2>Intermediate</h2>
             <p>
               Resources: <br />
-              <a href="https://learning.oreilly.com/library/view/learn-chartjs">
-                Learn Chart.js
-              </a>
-              <br />
+              <a href="https://learning.oreilly.com/library/view/learn-chartjs">Learn Chart.js</a> <br />
               <br />
             </p>
           </div>
@@ -32,10 +29,9 @@
           <div class="feature">
             <h2>Advanced</h2>
             <p>
-              Resources: <br />
-              <a href="https://d3js.org/">
-                Coming soon...
-              </a>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              <br />
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
         </li>

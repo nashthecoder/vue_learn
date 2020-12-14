@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/chartjs.png" />
-    <HelloWorld msg="Data Visualization" />
+    <HelloWorld msg="#AlwaysLearning | Chart.js in Vue" />
   </div>
 </template>
 

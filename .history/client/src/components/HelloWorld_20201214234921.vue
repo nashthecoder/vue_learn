@@ -32,10 +32,9 @@
           <div class="feature">
             <h2>Advanced</h2>
             <p>
-              Resources: <br />
-              <a href="https://d3js.org/">
-                Coming soon...
-              </a>
+              Resources
+              <br />
+              Coming soon...
             </p>
           </div>
         </li>

@@ -32,10 +32,10 @@
           <div class="feature">
             <h2>Advanced</h2>
             <p>
-              Resources: <br />
-              <a href="https://d3js.org/">
-                Coming soon...
-              </a>
+              Resources: 
+              <br />
+              <a href="https://learning.oreilly.com/library/view/learn-chartjs">
+              Coming soon...
             </p>
           </div>
         </li>

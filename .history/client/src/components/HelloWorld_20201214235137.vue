@@ -34,7 +34,7 @@
             <p>
               Resources: <br />
               <a href="https://d3js.org/">
-                Coming soon...
+              Coming soon...
               </a>
             </p>
           </div>
