@@ -30,11 +30,11 @@ export default {
               "purple"
             ],
             data: [
-              { x: 0, y: 10 },
+              { x: 5, y: 10 },
               { x: 2, y: 8 },
               { x: 4, y: 10 },
               { x: 7, y: 5 },
-              { x: -2, y: 0 }
+              { x: 1, y: 2 }
             ]
           }
         ]
@@ -46,7 +46,8 @@ export default {
         xAxes: [
           {
             type: "linear",
-            position: "bottom"
+            position: "bottom",
+            beginAt: 0
           }
         ],
         responsive: true,

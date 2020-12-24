@@ -34,8 +34,10 @@
             <p>
               Resources: <br />
               <a href="https://d3js.org/">
-                Coming soon...
+                Coming soon..
               </a>
+              <br />
+              <br />
             </p>
           </div>
         </li>
@@ -43,14 +45,14 @@
     </div>
     <hr />
     <div class="footer">
-      NashTheCoder | Copyright © 2019-present MadHacks
+      NashTheCoder | Copyright © 2020
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Home",
   props: {
     msg: String
   }
