@@ -100,6 +100,7 @@ export default {};
 }
 .menu-items > * {
   margin-top: 60px;
+  display: flex;
 }
 .side-btn {
   border: none;

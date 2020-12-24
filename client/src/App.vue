@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ResponsiveNav
+    <Sidebar
       :nav-links="navLinks"
       background="#fff"
       link-color="#777"
@@ -10,11 +10,11 @@
   </div>
 </template>
 <script>
-import ResponsiveNav from "@/components/ResponsiveNav";
+import Sidebar from "@/components/Sidebar";
 
 export default {
   components: {
-    ResponsiveNav
+    Sidebar
   },
   data: () => ({
     navLinks: [
