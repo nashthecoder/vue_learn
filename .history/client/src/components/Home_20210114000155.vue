@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <button class="btn">Bar</button>
+    <v-btn elevation="2" plain class="btn">Bar</v-btn>
     <button class="btn">Bubble</button>
     <button class="btn">Donut</button>
     <button class="btn">Line</button>
@@ -92,9 +92,8 @@ a {
 .btn {
   margin-left: 5px;
   margin-right: 5px;
-  border-color: #29a46d;
-  width: 8%;
+  border-color: #42b983;
+  width: 7%;
   font-weight: 600;
-  background-color: rgb(244, 238, 238);
 }
 </style>

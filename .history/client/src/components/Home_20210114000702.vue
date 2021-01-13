@@ -92,9 +92,9 @@ a {
 .btn {
   margin-left: 5px;
   margin-right: 5px;
-  border-color: #29a46d;
-  width: 8%;
+  border-color: #42b983;
+  width: 7%;
   font-weight: 600;
-  background-color: rgb(244, 238, 238);
+  border-radius: 5px;
 }
 </style>

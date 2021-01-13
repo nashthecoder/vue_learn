@@ -8,6 +8,13 @@
     <button class="btn">Polar</button>
     <button class="btn">Radar</button>
     <button class="btn">Scatter</button>
+     <v-btn
+      class="ma-2"
+      color="secondary"
+      @click="BarChart"
+    >
+      Accept Terms
+    </v-btn>
     <h1>{{ msg }}</h1>
     <hr />
     <div class="features">
@@ -92,9 +99,8 @@ a {
 .btn {
   margin-left: 5px;
   margin-right: 5px;
-  border-color: #29a46d;
+  border-color: #42b983;
   width: 8%;
   font-weight: 600;
-  background-color: rgb(244, 238, 238);
 }
 </style>
