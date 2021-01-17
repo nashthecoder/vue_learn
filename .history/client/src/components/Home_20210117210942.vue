@@ -18,7 +18,7 @@
             <p>
               Resources: <br />
               <a href="https://canvasjs.com/" target="_blank"> Canvasjs.com</a> <br />
-              
+              <a href="https://www.chartjs.org/" target="_blank"> Chartjs.org</a>
               <br />
             </p>
           </div>
@@ -28,7 +28,7 @@
             <h2>Intermediate</h2>
             <p>
               Resources: <br />
-              <a href="https://www.chartjs.org/" target="_blank"> Chartjs.org</a>
+              <a href="https://learning.oreilly.com/library/view/learn-chartjs" target="_blank">
                 Learn Chart.js
               </a>
               <br />

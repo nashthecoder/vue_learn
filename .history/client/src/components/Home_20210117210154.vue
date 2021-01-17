@@ -17,8 +17,8 @@
             <h2>Beginner</h2>
             <p>
               Resources: <br />
-              <a href="https://canvasjs.com/" target="_blank"> Canvasjs.com</a> <br />
-              
+              <a href="https://canvasjs.com/"> Canvasjs.com</a> <br />
+              <a href="https://www.chartjs.org/"> Chartjs.org</a>
               <br />
             </p>
           </div>
@@ -28,7 +28,7 @@
             <h2>Intermediate</h2>
             <p>
               Resources: <br />
-              <a href="https://www.chartjs.org/" target="_blank"> Chartjs.org</a>
+              <a href="https://learning.oreilly.com/library/view/learn-chartjs">
                 Learn Chart.js
               </a>
               <br />
@@ -41,7 +41,7 @@
             <h2>Advanced</h2>
             <p>
               Resources: <br />
-              <a href="https://d3js.org/" target="_blank">
+              <a href="https://d3js.org/">
                 Coming soon..
               </a>
               <br />
